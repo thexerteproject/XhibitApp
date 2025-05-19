@@ -5,7 +5,7 @@
     $message = $_POST['message1'];
 
     //Email address to send to
-    $address = "info@xhibitapp.com";
+    $address = "info@xerte.org.uk";
 
     //Create subject line for email
     $subject = 'You\'ve been contacted from www.xhibitapp.com by ' . $name . '.';
@@ -31,5 +31,5 @@
     mail($address, $subject, $sendmessage, $headers);
 
     //Send confirmation to JQuery, so success message is launched.
-    echo "Your message has been received and a member of the Xhibit App Team will contact you soon.";
+    echo "Your message has been received and a member of the Xerte Team will contact you soon.";
 ?>
