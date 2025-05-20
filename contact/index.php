@@ -46,7 +46,7 @@
 
             <h2>We would love to hear from you!</h2>
 
-            <p>Please use the contact form to get in touch with the Xhibit App Team. We look forward to hearing from you and will respond to your enquiry at the first available opportunity.</p>
+            <p>Please use the contact form to get in touch with the Xerte Xhibit App Team. We look forward to hearing from you and will respond to your enquiry at the first available opportunity.</p>
 
             <div class="contact-form-container"><!-- #form -->  
                     <form id="contact">
@@ -83,7 +83,7 @@
                     <a href="https://twitter.com/xhibitapp" target="_blank"><button type="button" class="button btn-twitter">@XhibitApp</button></a>
             </div>
 
-            <p>Xhibit App is developed by James Roscoe and Joel Reed.</p>
+            <p>Xhibit App was orginally developed by James Roscoe and Joel Reed and is now maintained by the Xerte Project.</p>
 
                     <!-- Two columns of text and rounded images -->
         <div class="row">
