@@ -36,7 +36,7 @@
         
         <div id="intro">
 
-            <h1>Donate to XhibitApp</h1>
+            <!--<h1>Donate to XhibitApp</h1>
             
             <p>XhibitApp is a non-commercial, open-source project developed by James Roscoe and Joel Reed. We don't receive any funding from organisations or employers for XhibitApp, and therefore pay the costs for the website out of our own pockets.</p>
             
@@ -65,7 +65,7 @@
         
     </div>
 
-   <div class="push"></div>
+   <div class="push"></div>-->
 </div>
 
     <?php include SITEPATH . "/includes/footer.php" ?>

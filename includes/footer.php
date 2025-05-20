@@ -1,11 +1,11 @@
 <footer class="sticky">
     <div class="wrapper footer-wrap">
-        Xhibit App - Xerte Theme Generator | <a class="donate-now" href="<?php echo SITEURL ?>/donate">Donate</a>
-        <div class="twitter">
+        Xhibit App - Xerte Theme Generator <!--| <a class="donate-now" href="<?php /*echo SITEURL */?>/donate">Donate</a>-->
+        <!--<div class="twitter">
         		<a class="twitter-follow-button" href="https://twitter.com/XhibitApp">Follow @XhibitApp</a>
-		</div>
+		</div>-->
     <div class="gh">
-      <a href="https://github.com/james-roscoe/XhibitApp" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+      <a href="https://github.com/thexerteproject/XhibitApp" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
     </div>
     </div>
 </footer>
