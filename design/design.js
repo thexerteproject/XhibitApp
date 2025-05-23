@@ -553,6 +553,56 @@
         #x_colourChangerBtn:not(.customIconBtn) .ui-icon:before {
         content: "";
         }`;
+        css += '}\n\n';
+
+        css += `/* add static infoBox styles */
+        .infoBox.alt {
+        /*used in cardiff styles so not changed*/
+        background: #d9e9f3;
+        }
+        .infoBox {
+        /*used in cardiff styles so not changed*/
+        background: #f7f3eb;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        }
+        .infoBox1 {
+        background: #f7f3eb;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        }
+        .infoBox2 {
+        background: #d9e9f3;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        }
+        .infoBox3 {
+        background: #8080803b;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        }
+        .infoBox4 {
+        background: #6927593b;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        }
+        .infoBox5 {
+        background: #00665c3b;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        }
+        .infoBox6 {
+        background: #B907453b;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        }`;
 
 
         liveStyles.textContent = css;
