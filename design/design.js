@@ -410,7 +410,7 @@
         css += '}\n\n';
 
         css += '#x_footerChevron {\n';
-        css += '\t' + 'color: ' + styles.icons.colour +';\n';
+        css += '\t' + 'color: ' + styles.icons.colour +'!important;\n';
         css += '}\n\n';
         
         css += '/* PRESERVE INVERT FUNCTIONALITY FOR ACCESSIBILITY */\n\n';
@@ -545,6 +545,14 @@
         css += '\t' + 'background: #000000;\n';
         css += '\t' + 'color: #ffff99;\n';
         css += '}\n\n';
+
+        css += `/* Footer button fixes */
+        #x_footerBlock .x_floatLeft button, #x_footerBlock .x_floatRight button {
+    padding: 0 41px 0 0 !important;
+        }
+        #x_colourChangerBtn:not(.customIconBtn) .ui-icon:before {
+        content: "";
+        }`;
 
 
         liveStyles.textContent = css;
