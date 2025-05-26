@@ -546,14 +546,14 @@
         css += '\t' + 'color: #ffff99;\n';
         css += '}\n\n';
 
-        css += `/* Footer button fixes */
+        /*css += `/!* Footer button fixes *!/
         #x_footerBlock .x_floatLeft button, #x_footerBlock .x_floatRight button {
     padding: 0 41px 0 0 !important;
         }
         #x_colourChangerBtn:not(.customIconBtn) .ui-icon:before {
         content: "";
         }`;
-        css += '}\n\n';
+        css += '}\n\n';*/
 
         css += `/* add static infoBox styles */
         .infoBox.alt {
